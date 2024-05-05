@@ -8,14 +8,34 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State private var showNewTask = false
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
+            HStack {
+                Text("To Do List:")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .foregroundColor(Color.black)
+                    .multilineTextAlignment(.leading)
+                    .font(.custom("AmericanTypewriter", fixedSize: 36))
+                Spacer()
+                Button {
+                    withAnimation {
+                        self.showNewTask = true
+                    }
+                } label: {
+                    Text("+ ")
+                } .fontWeight(.black)
+                    .font(.custom("AmericanTypewriter", fixedSize: 36))
+                    .buttonStyle(.borderedProminent)
+                    .tint(.green)
+            }
+            .padding()
+            Spacer()
         }
-        .padding()
+        if showNewTask {
+            NewToDoView()
+        }
     }
 }
 
