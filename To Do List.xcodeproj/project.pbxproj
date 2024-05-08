@@ -15,6 +15,7 @@
 		535C76B72BE826CD0061FB32 /* To_Do_ListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C76B62BE826CD0061FB32 /* To_Do_ListUITests.swift */; };
 		535C76B92BE826CD0061FB32 /* To_Do_ListUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C76B82BE826CD0061FB32 /* To_Do_ListUITestsLaunchTests.swift */; };
 		535C76C62BE82BB10061FB32 /* NewToDoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C76C52BE82BB10061FB32 /* NewToDoView.swift */; };
+		535C76C82BEB09C00061FB32 /* ToDoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 535C76C72BEB09BF0061FB32 /* ToDoItem.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		535C76B62BE826CD0061FB32 /* To_Do_ListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITests.swift; sourceTree = "<group>"; };
 		535C76B82BE826CD0061FB32 /* To_Do_ListUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = To_Do_ListUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		535C76C52BE82BB10061FB32 /* NewToDoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewToDoView.swift; sourceTree = "<group>"; };
+		535C76C72BEB09BF0061FB32 /* ToDoItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoItem.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			children = (
 				535C769B2BE826C90061FB32 /* To_Do_ListApp.swift */,
 				535C769D2BE826C90061FB32 /* ContentView.swift */,
+				535C76C72BEB09BF0061FB32 /* ToDoItem.swift */,
 				535C76C52BE82BB10061FB32 /* NewToDoView.swift */,
 				535C769F2BE826CD0061FB32 /* Assets.xcassets */,
 				535C76A12BE826CD0061FB32 /* Preview Content */,
@@ -262,6 +265,7 @@
 			files = (
 				535C76C62BE82BB10061FB32 /* NewToDoView.swift in Sources */,
 				535C769E2BE826C90061FB32 /* ContentView.swift in Sources */,
+				535C76C82BEB09C00061FB32 /* ToDoItem.swift in Sources */,
 				535C769C2BE826C90061FB32 /* To_Do_ListApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
